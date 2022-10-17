@@ -1,34 +1,32 @@
 body{
-    
+    font-family: 'Poppins', sans-serif;
 }
 .headercontainer{
     display: flex;
     justify-content: space-between;
     background-color: rgb(255, 255, 255);
     align-items: center;
-    width:80%;
+    max-width:1280px;
+    height: 52px;
     margin:auto;
+    width: 100%;
 }
 
-header{
-    background-color: aqua;
-}
-header ul{
+.headertools{
     display: flex;
-    list-style: none;
-    color: #394149;
-}
-.headertools:last-child{
-    display: flex;
-    background-color: orange;
     width:50%;
     justify-content: space-around;
 }
-.headertools:last-child ul {
-display: flex;
-justify-content: space-around;
+.headertools ul {
+    display: flex;
+justify-content: space-between;
 width: 100%;
-background-color: aqua;
+font-size: 16px;
+line-height: 24px;
+font-weight: 600;
+list-style: none;
+    color: #394149;
+
 }
 header button{
     color: #F58A07;
@@ -36,20 +34,27 @@ header button{
     height: 52px;
     border-radius: 31px;
     border:none;
+    background-color:#F58A071A ;
 }
-.headertools:first-child h1{
+.headerlogo h1{
     color:#063255;
     height: 28px;
     width:122px;
 }
-section:nth-child(2){
+.section1{
     
     display: flex;
     justify-content: center;
     background-color: #DCEAF5;
 }
-.firstdiv{
-    width: 40%;
+.firstdiv:first-child{
+    width: 576px;
+    height: 439px;
+
+}
+.firstdiv:last-child{
+    width: 747px;
+    height: 618px;
 
 }
 .firstdiv h1{
@@ -57,14 +62,17 @@ section:nth-child(2){
     font-weight: 600;
     line-height: 72px;
     width: 100%;
+    
+   
+    
 }
 .firstdiv p1{
     font-size: 18px;
     font-weight: 500;
     line-height: 30px;
-    width: 100%;
-    background-color: orange;
+    width: 100%;  
 }
+
 .firstdiv button{
     width: 199px;
     height: 54px;
@@ -72,5 +80,30 @@ section:nth-child(2){
     border:none;
     background-color:#F58A07;
     color:white;
+}
+.firstdiv .button-div a{
+    background-color: #DCEAF5;
+    color: #1D3444;
+    text-decoration: none;
+}
+
+.firstdiv .button-div{
+    margin:70px 0;
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    align-items: center;
+}
+.firstdiv h3{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 100%;  
+    
+}
+.firstdiv .logos{
+    display: flex;
+    justify-content: space-between;
+    
 }
 
