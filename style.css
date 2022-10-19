@@ -15,7 +15,7 @@ header{
     justify-content: space-between;
     background-color: rgb(255, 255, 255);
     align-items: start ;
-    max-width: 1280px;
+    max-width:1280px;
     height: 52px;
     margin: auto;
     width: 100%;
@@ -25,6 +25,7 @@ header{
     display: flex;
     width: 50%;
     justify-content: space-between;
+    min-width:500px;
 }
 
 .headertools ul {
@@ -53,9 +54,8 @@ header button {
 .headerlogo h1 {
     color: #063255;
     height: 28px;
-    width: 122px;
     margin: 0;
-    font-weight:bolder;
+    font-weight:900;
 }
 
 section:nth-child(2) {
@@ -72,18 +72,14 @@ section:nth-child(2) {
     margin: auto;
     width: 100%;
 }
-.firstdiv:first-child {
-    width: 576px;
-    height: 618px;
-
-}
-.firstdiv:last-child {
-    width: 747px;
-    height: 618px;
-}
-.firstdiv:last-child img{
+.firstdiv{
+    max-width: 576px;
     width: 100%;
-    height: 100%;
+    height: 618px;
+}
+.first-img{
+    width: 50%;
+    height:618px;
 }
 .firstdiv h1 {
     font-size: 64px;
@@ -93,14 +89,15 @@ section:nth-child(2) {
     height: 144px;
     letter-spacing: -0.03%;
     color: #1D3444;
+    margin-bottom:0;
 }
 
-.firstdiv p1 {
+.firstdiv p{
     font-size: 18px;
     font-weight: 500;
     line-height: 30px;
     width: 571px;
-   
+    margin-bottom: 0;
     color: #5B5B5B ;
 }
 
@@ -115,6 +112,7 @@ section:nth-child(2) {
     font-weight: 600;
     line-height: 17.04px;
     margin:30px 0;
+  
 
 }
 
@@ -122,7 +120,6 @@ section:nth-child(2) {
     background-color: #DCEAF5;
     color: #1D3444;
     text-decoration: none;
-    width: 125px;
     height: 17px;
     font-size: 16px;
     font-weight: 600;
@@ -133,6 +130,7 @@ section:nth-child(2) {
     width: 70%;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .firstdiv h3 {
@@ -143,9 +141,13 @@ section:nth-child(2) {
     color: #39414980;
 
 }
-.logos {
+.first-logo {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
+}
+.first-logo img{
+
 }
 section:nth-child(3) {
     max-width: 1280px;
@@ -155,17 +157,18 @@ section:nth-child(3) {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 96px;
+    padding: 96px 0;
 }
 
 .helpcontainer {
     display: flex;
     justify-content: space-between;
+    
 }
 
 section:nth-child(3) h2 {
     width: 735px;
-    height: 112px;
+    min-height: 112px;
     font-size: 48px;
     font-weight: 600;
     line-height: 56px;
@@ -182,6 +185,7 @@ section:nth-child(3) h2 {
     line-height: 30px;
     color: #5B5B5B;
     margin-right: 500px;
+  
 }
 .help2 a {
     font-weight: 500;
@@ -216,13 +220,14 @@ section:nth-child(4) {
 
 .featurecontainer {
     height: 473px;
-    max-width: 1280px;
     width: 100%;
+    max-width: 1280px;
     margin: auto;
     display: flex;
     flex-direction: column;
     height: 100%;
     justify-content: space-evenly;
+    min-width: 750px;
 }
 .feature0{
     display: flex;
@@ -285,12 +290,16 @@ section:nth-child(5) {
     max-width: 1280px;
     width: 100%;
     margin: auto;
-    height: 667px;
     display: flex;
-    padding: 96px;
+    padding: 96px 0;
+    min-width: 750px;
+    height: 667px;
 }
 .about1 {
     width: 50%;
+    min-width: 576px;
+    
+    
 }
 
 .about1 h2 {
@@ -301,6 +310,7 @@ section:nth-child(5) {
     line-height: 56px;
     letter-spacing: -0.03em;
     color: #0D1317;
+    margin-right: 0;
 }
 
 .about1 h4 {
@@ -318,6 +328,7 @@ section:nth-child(5) {
 
 .aboutcontainer {
     display: flex;
+    
 }
 
 .about2 p1 {
@@ -350,7 +361,7 @@ section:nth-child(5) {
 
 .blend1 {
     width: 153px;
-    height: 667px;
+    height: 100%;
     mix-blend-mode: multiply;
     position: absolute;
     left: 0;
@@ -359,21 +370,27 @@ section:nth-child(5) {
     border-radius: 20px 0 0 20px;
 }
 
-.about1:last-child {
-    background: url("./images/about-image.png");
-    background-size: cover;
+.about-img {
     position: relative;
+    width: 50%;
+ 
+}
+.about-img img{
+    height: 100%;
     border-radius: 20px;
+    width: 100%
+    ;
 
 }
 section:nth-child(6){
-    width: 1295px;
+    max-width: 1295px;
+    width: 100%;
     margin: auto;
     height: 698px;
     display: flex;
     align-items: end;
     position: relative;
-  
+    min-width: 750px;
 }
 .ribbon{
     position: absolute;
@@ -381,7 +398,7 @@ section:nth-child(6){
     top: 0;
 }
 .service-container {
-    max-width: 1274.39px;
+    max-width: 1279.39px;
     height: 682px;
     width: 100%;
     margin: auto;
@@ -391,6 +408,7 @@ section:nth-child(6){
     flex-wrap: wrap;
     justify-content: space-around;
     margin: 0;
+    min-width: 1075px;
 }
 
 .service-button {
@@ -424,22 +442,20 @@ section:nth-child(6){
     width: 183px;
 }
 
-.service1 {
-    width: 472px;
-    height: 466px;
-}
-
 .service1:nth-child(2) {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 572px;
+    height: 466px;
+    min-width: 500px;
 }
 
 .service1:last-child {
-    background-image: url(./images/team.png);
-    background-size: cover;
+    width: 472px;
+    height: 466px;
     position: relative;
+
 }
 
 .blend2 {
@@ -448,6 +464,7 @@ section:nth-child(6){
     background-color: #F58A07;
     mix-blend-mode: multiply;
     position: absolute;
+    top: 0;
     border-radius: 20px 0 0 20px;
 }
 
@@ -490,7 +507,8 @@ section:nth-child(7) {
     width: 100%;
     height: 518px;
     display: flex;
-    margin: 96px;
+    margin: 96px 0;
+    min-width: 750px;
 
 }
 
@@ -498,7 +516,6 @@ section:nth-child(7) img {
     width: 50%;
     height: 100%;
 }
-
 .CTA1 {
     width: 50%;
     display: flex;
@@ -506,10 +523,12 @@ section:nth-child(7) img {
     justify-content: center;
     align-items: center;
     background-color: #F58A07;
+    min-width: 475px;
 }
 
 .CTA1 h2 {
-    width: 532px;
+    max-width: 532px;
+    width: 100%;
     height: 168px;
     font-weight: 600;
     font-size: 48px;
@@ -520,7 +539,8 @@ section:nth-child(7) img {
 }
 
 .CTA1 button {
-    width: 216px;
+    max-width: 216px;
+    width: 100%;
     height: 54px;
     border-radius: 31px;
     background-color: #FFFFFF;
@@ -538,11 +558,13 @@ section:nth-child(8) {
     height: 501px;
     display: flex;
     margin-bottom: 96px;
+    min-width: 750px;
 }
 
-.video1 {
+.video1:first-child {
     width: 50%;
     height: 100%;
+    min-width: 575px;
 }
 
 .video2 img {
@@ -566,16 +588,17 @@ section:nth-child(8) {
     line-height: 56px;
     letter-spacing: -0.03em;
     color: #0D1317;
+  
 }
 
 .video1 h3 {
     width: 550px;
-    height: 90px;
+    height: 110px;
     font-weight: 500;
     font-size: 18px;
     line-height: 30px;
     color: #5B5B5B;
-    
+    margin-top: 0;
 }
 
 .video3 {
@@ -604,9 +627,12 @@ section:nth-child(8) {
     background-color: #FFFFFF;
     bottom: 40px;
     left: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+   
+}
+.video-button img{
+    position: absolute;
+    left:20px;
+    top:17px
 }
 
 .video1 p {
@@ -627,11 +653,16 @@ section:nth-child(8) {
 }
 
 .video1:last-child {
-    background-image: url("./images/video-image.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
+    
     position: relative;
     border-radius: 20px;
+    width: 50%;
+    
+    
+}
+.video-img{
+    width: 100%;
+    height: 100%;
 }
 
 .last-section {
@@ -721,7 +752,7 @@ footer {
     margin: auto;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
     height: 100%;
 
 
@@ -764,12 +795,13 @@ footer h3 {
     color: #FFFFFF;
 }
 
-.footer3 p {
+.footer3 h2 {
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
     color: #FFFFFF;
     list-style: none;
+    height: 24px;
 }
 
 footer ul {
@@ -783,20 +815,20 @@ footer ul li a {
 
 .footer2 {
     width: 92px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    
 }
-.footer2 a{
+.footer2  a{
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
     color: #FFFFFF;
     text-decoration: none;
+    height: 24px;
 }
 
 .footer3 {
     width: 142px;
+  
 }
 
 .footer4 {
@@ -848,20 +880,17 @@ footer button {
     height: 54px;
     border-radius: 31px;
     background-color: #FFFFFF;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19.36px;
-    color: #9C9C9C;
     display: flex;
     align-items: center;
     padding: 20px;
     box-sizing: border-box;
+    margin: 15px 0;
 
 }
-
-.footer1,
-.footer4 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.footer-email input {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19.36px;
+    color: #9C9C9C;
+    border: none;
 }
