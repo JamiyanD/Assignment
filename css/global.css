@@ -72,6 +72,7 @@ footer {
     width: 100%;
     height: 463px;
     background-color: #063255;
+    min-width: 940px;
 }
 .footer-container {
     display: flex;

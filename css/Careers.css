@@ -8,10 +8,12 @@ section:nth-child(2){
     display: flex;
     flex-direction: column;
     justify-content: center;
+    min-width: 550px;
 }
 .first1{
     width: 50%;
     position: relative;
+   
 }
 .first1 img{
     width: 100%;
@@ -59,11 +61,11 @@ section:nth-child(3){
     max-width: 1269.25px;
     width: 100%;
     margin: auto;
-    height: 522px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: 90px;
+    min-width: 810px;
 }
 section:nth-child(3) h1{
     width: 100%;
@@ -73,7 +75,7 @@ section:nth-child(3) h1{
     line-height: 56px;
     letter-spacing: -0.03%;
     color:#0D1317 ;
-    margin:0;
+   
 }
 .career-container{
     width: 400px;
@@ -85,6 +87,7 @@ section:nth-child(3) h1{
     justify-content: space-between;
     padding: 20px;
     box-sizing: border-box;
+    margin:20px 0
 }
 .career-container:last-child{
     background-color: white;
@@ -121,7 +124,6 @@ section:nth-child(3) h1{
     height: 819px;
     background-color: #DCEAF5;
 }
-
 .last-section h1 {
     font-size: 48px;
     line-height: 56px;
@@ -136,6 +138,7 @@ section:nth-child(3) h1{
 .blog-container {
     display: flex;
     justify-content: space-between;
+    min-width:940px;
 }
 .blog2 {
     width: 400px;
@@ -144,12 +147,17 @@ section:nth-child(3) h1{
     border-radius: 20px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    margin: 5px;
+}
+.blog3{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
 }
 .blog2 img {
     border-radius: 20px;
-    height: 230px;
     width: 100%;
+    height: 230px;
 }
 .blog2 h2 {
     font-weight: 500;
@@ -157,11 +165,8 @@ section:nth-child(3) h1{
     line-height: 36px;
     letter-spacing: -0.03em;
     color: #0D1317;
-    width: 336px;
+    margin-top: 0;
 }
-.blog2 p1 {
-    width: 336px;
-}
-.blog2 a {
-    width: 336px;
+.blog2 p1{
+    height: 96px;
 }
