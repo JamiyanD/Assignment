@@ -8,7 +8,6 @@
     color: #1D3444;
 }
 .career-container1{
-    width: 1086px;
     height: 246px;
     display: flex;
     flex-direction: column;
@@ -32,10 +31,10 @@
     color: #5B5B5B;
 }
 .career1 p1:last-child{
-    width: 162px;
+    width: 356px;
 }
 .career1 h1:last-child{
-    width: 162px;
+    width: 356px;
 }
 .career1{
     width: 100%;
@@ -43,13 +42,19 @@
     justify-content: space-between;
 }
 .career-container2{
+    max-width: 1140px;
     width: 100%;
-    height: 441px;
-    background-color:#C1E4FF4D;
+    height: 301px;
     display: flex;
-    padding: 70px;
     box-sizing: border-box;
     justify-content: space-between;
+}
+.career-container0{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#C1E4FF4D;
+    height: 441px;
     border-radius: 20px;
 }
 .career3{
@@ -73,7 +78,8 @@
     letter-spacing: 0;
 }
 .career4{
-    width: 842px;
+    max-width: 842px;
+    width: 100%;
     height: 308px;
     font-weight: 500;
     font-size: 16px;
@@ -81,10 +87,77 @@
     color: #5B5B5B;
     display: flex;
     flex-direction: column;
+    padding-left: 10px;
 }
 .career-up{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 751px;
+}  
+.first-name{
+    max-width: 628px;
+    width: 100%;
+    height: 54px;
+    border-radius: 27px;
+    background-color: #D2DAED2B;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19.36px;
+    color:  #9C9C9C;
+    padding-left: 32px;
+    box-sizing: border-box;
+    border: none;
+}
+.input1{
+    width: 100%;
+    height: 215px;
+    border-radius: 27px;
+    background-color:#D2DAED2B;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19.36px;
+    color:  #9C9C9C;
+    border: none;
+    padding: 32px 0 163px 32px;
+    box-sizing: border-box;
+}
+.input-container1{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.career-down button{
+    width: 119px;
+    height: 54px;
+    border-radius: 31px;
+    background-color: #F58A07;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 17.04px;
+    color: #FFFFFF;
+    border: none;
+}
+.career-down{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 600px;
+}
+.career-down h1{
+    width: 247px;
+    height: 56px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.03em;
+    color: #0D1317;
+}
+section {
+    height: 1621px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }

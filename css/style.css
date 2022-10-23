@@ -1,6 +1,6 @@
 
 body button{
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 600;
     line-height: 17.04px;
 }
@@ -21,18 +21,6 @@ body p1{
     line-height: 28px;
     color:#5B5B5B ;
 }
-.learn-more {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 17.04px;
-    color: #F58A07;
-    margin-top:20px;
-    height: 17px;
-}
-.learn-more::after {
-    content: "\2192";
-    padding: 5px;
-}
 section:nth-child(2) {
     background-color: #DCEAF5;
     height: 703px;
@@ -48,17 +36,20 @@ section:nth-child(2) {
     height: 618px;
     min-width: 500px;
 }
+.firstdiv:first-child{
+    height: 586px;
+}
 .first-img{
     width: 110%;
     height:100%;
 }
 .firstdiv h1 {
-    font-size: 64px;
-    line-height: 72px;
+    font-size: 4rem;
+    line-height: 4.5rem;
     width: 576px;
     height: 144px;
     color: #1D3444;
-    margin-bottom:0;
+    margin:0 0 12px;
 }
 .firstdiv p{
     width: 571px;
@@ -75,7 +66,7 @@ section:nth-child(2) {
     background-color: #DCEAF5;
     color: #1D3444;
     height: 17px;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 600;
     line-height: 17.04px;
 }
@@ -85,23 +76,20 @@ section:nth-child(2) {
     justify-content: space-between;
     align-items: center;
     height: 54px; 
+    margin: 32px 0 56px;
 }
-.firstdiv h3 {
+.firstdiv p3 {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
     height: 30px;
     color: #39414980;
-    margin-bottom: 0;
 }
 .first-logo {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     width: 80%;
-}
-.first-logo img{
-    margin-top:20px;
 }
 section:nth-child(3) {
     height: 740px;
@@ -116,7 +104,9 @@ section:nth-child(3) {
     justify-content: space-between;
     min-width: 930px;
 }
-
+.first-logo img{
+    margin-top: 18px;
+}
 section:nth-child(3) h1 {
     width: 735px;
     font-size: 48px;

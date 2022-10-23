@@ -2,6 +2,7 @@ html ul,a {
     list-style: none;
     text-decoration: none;
     padding: 0;
+    font-size: 16px;
 }
 body {
     font-family: 'Poppins', sans-serif;
@@ -15,7 +16,7 @@ body {
 }
 .learn-more {
     font-weight: 500;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 17.04px;
     color: #F58A07;
     margin-top:20px;
@@ -45,8 +46,8 @@ header a{
     min-width:500px;
 }
 .headertools ul {
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 1rem;
+    line-height: 1.5rem;
     font-weight: 600;
     display: flex;
     justify-content: space-around;
@@ -66,7 +67,6 @@ header button {
     color: #063255;
     height: 28px;
     width: 122px;
-    font-weight:900;
 }
 footer {
     width: 100%;
@@ -91,38 +91,32 @@ footer {
 .footer-logo {
     width: 120px;
     height: 27px;
-    color: #FFFFFF;
-    margin: 0;
-    font-weight: 900;
 }
-
 footer h1 {
-    font-size: 36px;
+    font-size: 2.25rem;
     font-weight: 600;
-    line-height: 44px;
+    line-height: 2.75rem;
     letter-spacing: -0.03em;
     color: #FFFFFF;
     width: 351px;
     height: 88px;
 }
-
 footer h2 {
     font-weight: 600;
     font-size: 18px;
     line-height: 27px;
     color: #FFFFFF;
 }
-
 footer p{
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.5rem;
     color: #FFFFFF;
 }
 footer a{
-    font-size: 16px;
+    font-size:1rem;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.5rem;
     color: #FFFFFF;
 }
 .footer2 {
@@ -143,9 +137,8 @@ footer a{
     display: flex;
     justify-content: space-between;
 }
-
 .privacy-policy {
-    width: 342px;
+    width: 26%;
     display: flex;
     justify-content: space-between;
 }
@@ -167,10 +160,8 @@ footer button {
     background-color: #FFFFFF;
     padding: 17px;
     box-sizing: border-box;
-}
-.footer-email input {
     font-weight: 500;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 19.36px;
     color: #9C9C9C;
     border: none;
