@@ -2,7 +2,9 @@ html ul,a {
     list-style: none;
     text-decoration: none;
     padding: 0;
-    font-size: 16px;
+}
+a:hover{
+    color: orange;
 }
 body {
     font-family: 'Poppins', sans-serif;
@@ -73,6 +75,7 @@ footer {
     height: 463px;
     background-color: #063255;
     min-width: 940px;
+    position: relative;
 }
 .footer-container {
     display: flex;
@@ -126,7 +129,7 @@ footer a{
     width: 142px;
 }
 .footer4 {
-    width: 342px;
+    width: 26.7%;
     height: 90%;
     display: flex;
     flex-direction: column;
@@ -154,7 +157,7 @@ footer button {
 }
 
 .footer-email {
-    width: 342px;
+    width: 100%;
     height: 54px;
     border-radius: 31px;
     background-color: #FFFFFF;
@@ -165,4 +168,21 @@ footer button {
     line-height: 19.36px;
     color: #9C9C9C;
     border: none;
+}
+.shape-left{
+    width: 1.6%;
+    height: 144px;
+    background-color: #F58A07;
+    position: absolute;
+    bottom: 0;
+    border-radius: 0 20px 0 0;
+}
+.shape-right{
+    width: 1.6%;
+    height: 287px;
+    background-color: #F58A07;
+    border-radius: 20px 0 0 20px;
+    position: absolute;
+    right: 0;
+    top: 38px;
 }

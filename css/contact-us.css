@@ -9,8 +9,8 @@ section{
     width: 521px;
     height: 128px;
     font-weight: 600;
-    font-size: 48px;
-    line-height: 64px;
+    font-size: 3rem;
+    line-height: 3rem;
     letter-spacing: -0.03em;
     color: #1D3444;
     min-width: 531px;
@@ -19,12 +19,12 @@ section{
 .contact1 h2{
     height: 30px;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 1.5rem;
     line-height: 30px;
     letter-spacing: -0.03em;
     color: #0D1317;
 }
-.contact-container2 p1{
+.contact-up p1{
     height: 30px;
     font-weight: 500;
     font-size: 18px;
@@ -57,7 +57,7 @@ section{
     background-color:#D2DAED2B;
     font-family: 'Inter';
     font-weight: 500;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 19.36px;
     color: #9C9C9C;
     border:none;
@@ -65,7 +65,6 @@ section{
     box-sizing: border-box;
     margin-right: 10px;
     max-width: 605px;
-    width: 100%;
 }
 .input1:nth-child(4){
     height: 160px;
@@ -86,7 +85,7 @@ section{
     border: none;
     font-family: 'Inter';
     font-weight: 600;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 17.04px;
     color: #FFFFFF;
     margin-top:32px;
